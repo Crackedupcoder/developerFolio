@@ -81,7 +81,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "postgresql",
-      fontAwesomeClassname: "fa-solid fa-database"
+      fontAwesomeClassname: "fab fa-database"
     },
     {
       skillName: "aws",
@@ -110,7 +110,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Fedral University of Technology, Minna",
-      logo: require("./assets/images/AAAA-01.png"),
+      logo: require("./assets/images/unnamed.png"),
       subHeader: "Bachelor of Technology",
       duration: "May 2023 - April 2028 (expected)",
       desc: "",
@@ -177,7 +177,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/Big-E-compressed-415777bb.gif"),
+      image: require("./assets/images/logo-67c93251.png"),
       projectName: "Execution",
       projectDesc: "Built Entire Backend System",
       footerLink: [

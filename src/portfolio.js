@@ -81,7 +81,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "postgresql",
-      fontAwesomeClassname: "fab fa-postgresql"
+      fontAwesomeClassname: "fa-solid fa-database"
     },
     {
       skillName: "aws",

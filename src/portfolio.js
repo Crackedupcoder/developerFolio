@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Backend Developer 🚀 having an experience of building Web applications with Python/ Django / Djangorestframework  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1yFHKocRhbEiQMElIuO8D8LiXD4TNKLE3nTPYbo63Xfs/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -109,7 +109,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Fedral University of Technology, Minna",
+      schoolName: "Federal University of Technology, Minna",
       logo: require("./assets/images/unnamed.png"),
       subHeader: "Bachelor of Technology",
       duration: "May 2023 - April 2028 (expected)",
@@ -146,17 +146,17 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Backend Developer",
       company: "Execution Wise",
-      companylogo: require("./assets/images/Big-E-compressed-415777bb.gif"),
+      companylogo: require("./assets/images/logo-67c93251.png"),
       date: "October 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Collaborated with cross-functional teams to develop and maintain backend functionalities for web applications",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Integrated Docker for containerization, ensuring consistent deployment across various environments.",
+        "Implemented RESTful APIs using Django Rest Framework, ensuring seamless communication between frontend and backend."
       ]
     },
   ]
@@ -335,7 +335,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
